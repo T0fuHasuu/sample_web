@@ -1,0 +1,58 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.center-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gap{
+    gap: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.center a{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    color: #27ae60;
+}
+.center a:hover{
+    color: black;
+}
+.profile{
+    width: 20%;
+    border-radius: 50%;
+}
+.heading{
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paragraph{
+    width: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+.image{
+    width: 20%;
+}
+.gallary{
+    gap: 5%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.underline{
+    text-decoration: underline;
+}
+.red{
+    color: red;
+    font-family: serif;
+}
+.pic{
+    width: 100%;
+    border-style:initial;
+}
